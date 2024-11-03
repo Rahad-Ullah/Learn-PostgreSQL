@@ -16,5 +16,3 @@ SELECT country, avg(age) FROM students
 SELECT extract(YEAR FROM dob) as birth_year, count(*)
     FROM students
     GROUP BY birth_year
-
-
